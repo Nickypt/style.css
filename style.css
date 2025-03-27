@@ -96,7 +96,7 @@ html {
     justify-content: center;
     align-items: center;
 
-    margin: 20px displey:inline-block;
+    margin: 20px displey: inline-block;
     padding: 10px 20px;
     background-color: #6572d2;
     color: #ccccff;
@@ -154,9 +154,6 @@ padding: 10px;
 }
 
 
-
-
-
 .texto-com-margem4 {
 margin: 20px;
   padding: 10px;
@@ -166,6 +163,8 @@ margin: 20px;
   background-color: #f5f9ff;
   ;
 }
+
+
 
 a.meu-link4 {
 display: flex;
