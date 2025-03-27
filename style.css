@@ -75,7 +75,7 @@ html {
 }
 
 html {
-  .redes-soplay: flex;
+  .redes-soplay:flex;
   gap: 15px;
 }
 
@@ -96,7 +96,7 @@ html {
     justify-content: center;
     align-items: center;
 
-    margin: 20px displey: inline-block;
+    margin: 20px displey:inline-block;
     padding: 10px 20px;
     background-color: #6572d2;
     color: #ccccff;
