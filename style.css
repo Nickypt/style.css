@@ -204,4 +204,11 @@ a.meu-link5:hover {
   text-decoration: underline;
 }
   
+.texto {
+margin: 20px;
+padding: 10px;
+border: 1 px solidrgb(132, 142, 216)
+background-colorrgb(63, 74, 158)
 
+
+}
