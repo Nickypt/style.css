@@ -206,8 +206,10 @@ a.meu-link5:hover {
   
 .texto {
 margin: 20px;
-padding: 10px;
-border: 1 px solid #5f6cce
-background-color: #6572d2
-
+  padding: 10px;
+  border: 1px solid #f5f9ff;
+  ;
+  border-radius: 15px;
+  background-color: #f5f9ff;
+  ;
 }
