@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="form-container">
+        <h1 style="color: #ffffff; text-shadow: 8px rgb(205, 76, 134); text-align: center; "> 𝓕𝓪ç𝓪 𝓪 𝓼𝓾𝓪 𝓮𝓷𝓬𝓸𝓶𝓮𝓷𝓭𝓪</h1>
+        <form>
+            <!--Dados do cliente-->
+            <label for="nome" style="font-size: medium; font-synthesis-weight:; color: #ffffff;"> Nome:</label>
+            <input type="text" id="nome" name="nome">
+
+             <label for="endereço" style="font-size: medium; font-synthesis-weight:; color: #ffffff;"> Endereço:</label>
+            <input type="text" id="endereço" name="endereço">
+
+            <label for="telefone" style="font-size: medium; font-synthesis-weight:; color: #ffffff;"> Telefone</label>
+            <input type="tel" id="telefone" name="telefone">
+
+            <label for="e-mail" style="font-size: medium; font-synthesis-weight:; color: #ffffff;"> E-mail</label>
+            <input type="email" id="email" name="email">
+
+            <label></label>
+
+            <!--Tipo de produto-->
+            <label for="produto"> Oque deseja encomendar?</label>
+            <select id="produto" name="produto" required>
+                <option value="bolos"> bolos</option>
+                <option value="paes"> pães</option>
+                <option value="torta"> tortas</option>
+                <option value="salgadinhos"> salgadinhos</option>
+            </select>
+
+            <!-- Descrição do pedido -->
+             <label for="descricao">Descreva seu pedido</label>
+             <textarea id="descricao" name="descricao" rows="4" ></textarea>
+
+             <!-- Restrições Alimentares -->
+              <label for="restricao">Possui alguma restrição alimentar?</label>
+             <textarea id="restricao" name="restricao" rows="2" placeholder="Ex: sem lactose, sem glúten..." ></textarea>
+
+             <!-- Forma de Pagamento -->
+              <label for="pagamento">Forma de pagamento:</label>
+              <select>
+                <option value=""> Selecione uma opção </option>
+                <option value="pix"> Pix</option>
+                <option value="cartao">Cartão de Crédito </option>
+                <option value="boleto"> Boleto</option>
+                <option value="dinheiro"> Dinheiro na entrega</option>
+              </select>
+
+              <!-- Data e Hora -->
+               <label for="data">Data da encomenda:</label>
+               <input type="date" id="data" name="data" required>
+
+               <label for="hora">Horário desejado:</label>
+               <input type="time" id="hora" name="hora" required>
+
+              <!-- Entrega ou Retirada -->
+               <label for="pagamento">Forma de pagamento:</label>
+              <select>
+                <option value="">Selecione uma opção</option>
+                <option value="entrega">Entrega</option>
+                <option value="retirada">retirada</option>
+              </select>
+
+              <!-- Botão de envio -->
+               <button type="submit">Enviar Pedido</button>
+
+
+               <style>
+
+/* --- ESTILO PARA O FORMULÁRIO--- */
+
+.form-container {
+  max-width: 600px;
+  margin: 30px auto;
+  background-color: #ffdddd;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgb(0, 0, 0.1);
+  border: #fcf4f4;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-top: 15px;
+  font-weight: bold;
+  color: #ff91bb;
+}
+
+form input,
+form select,
+form textarea {
+  margin-top: 5px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid rgb(182, 117, 150);
+  background-color: #fcf4f4;
+  box-sizing: border-box;
+}
+
+form textarea {
+  resize: vertical;
+}
+
+form button {
+  margin-top: 25px;
+  padding: 12px;
+  font-size: 18px;
+  background-color: #f6d0d0;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+form button :hover {
+  background-color: #c1698b;
+}
+
+               </style>
+
+
+
+
+
+</body>
+</html>
