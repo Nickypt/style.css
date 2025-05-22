@@ -213,3 +213,22 @@ margin: 20px;
   background-color: #f5f9ff;
   ;
 }
+
+
+
+
+a.meu-link7 {
+display:flex ;
+  justify-content: center;
+  align-items: center;
+
+  margin: 20px;
+  padding: 10px 20px;
+  background-color: #6572d2;
+  color: #ccccff;
+  text-decoration: none;
+  border-radius: 8px;
+}
+a.meu-link7:hover {
+  text-decoration: underline;
+}
