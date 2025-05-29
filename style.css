@@ -240,7 +240,7 @@ margin: 0;
 }
 
 header{
-  background-color: aqua;
+  background-color: rgb(108, 157, 197);
 }
 .navbar{
   display: flex;
@@ -252,7 +252,7 @@ header{
 .navbar ul {
 list-style-type: none;
 padding: 0;
-background-color: rgb(32, 122, 122);
+background-color: rgb(61, 103, 141);
 border-radius: 5px;
 }
 
@@ -269,5 +269,5 @@ padding: 14px 20px;
 }
 
 .navbar a:hover {
-  background-color: rgb(4, 149, 185);
+  background-color: rgb(136, 227, 250);
 }
