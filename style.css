@@ -302,3 +302,65 @@ padding: 10px;
   background-color: #f5f9ff;
   ;
 }
+
+
+
+
+
+
+/* --- ESTILO PARA O FORMULÁRIO--- */
+
+.form-container {
+  max-width: 600px;
+  margin: 30px auto;
+  background-color: #e487fe;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgb(63, 3, 78);
+  border: #fcf4f4;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-top: 15px;
+  font-weight: bold;
+  color: #70377c;
+}
+
+form input,
+form select,
+form textarea {
+  margin-top: 5px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid rgb(65, 33, 66);
+  background-color: #f9eff8;
+  box-sizing: border-box;
+}
+
+form textarea {
+  resize: vertical;
+}
+
+form button {
+  margin-top: 25px;
+  padding: 12px;
+  font-size: 18px;
+  background-color: #a94fb7;
+  color: #f4cefa;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+form button :hover {
+  background-color: #ffffff;
+}
+
+              
+
