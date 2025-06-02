@@ -9,6 +9,25 @@ body {
   ;
 }
 
+
+.rodape {
+    background-color: #282c4c; /* Cor de fundo do rodapé */
+    text-align: center; /* Centraliza o texto */
+    padding: 20px; /* Espaçamento interno */
+    position: relative; /* Para posicionamento se necessário */
+    bottom: 0; /* Para garantir que fique na parte inferior */
+    width: 100%; /* Largura total da página */
+}
+
+
+
+
+
+
+
+
+
+
 .container {
   max-width: 500px;
   margin: 50px auto;
@@ -37,6 +56,7 @@ ul {
 li {
   padding: 5px;
 }
+
 
 html {
   a.meu-link {
