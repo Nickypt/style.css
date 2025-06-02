@@ -272,8 +272,19 @@ padding: 14px 20px;
   background-color: rgb(136, 227, 250);
 }
 
+.nav-links a:hover {
+    text-decoration: underline; /* Sublinha o link ao passar o mouse */
+}
 
 
+.navbar {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra */
+}
+
+/* Borda inferior opcional */
+.navbar {
+    border-bottom: 2px solid #7d9fc5; 
+}
 
 
 a.meu-link8 {
