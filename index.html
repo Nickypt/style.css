@@ -1,231 +1,139 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Guia do Aluno</title>
+  <link href="styles.css" rel="stylesheet" type="text/css" />
 </head>
-
 <body>
 
-<link rel="stylesheet"
-href="styles.css">
-</header>
-<body>  
-<header>
-<nav class="navbar">
-  <ul>
-    <li><a href="#home">Inicio</a></li>
+  <header class="header">
+    <nav class="navbar">
+      <ul>
+        <li><a href="#home">Início</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+    <img src="Beige Orange Cosy Autumn Sale Etsy Cover Photo.png" class="banner" alt="banner decorativo">
+    <img src="1000189907.png" class="logo" alt="Logo Guia do Aluno">
+  </header>
 
-<li> <a href="#sobre">Sobre</a></li>
+  <main class="container">
+    <div class="social-media">
+      <a href="https://www.instagram.com/nicolly.puerta" target="_blank" aria-label="Instagram">
+        <img src="1742332907354 (2).png" alt="Ícone do Instagram">
+      </a>
+      <a href="https://pin.it/7H95bW5nm" target="_blank" aria-label="Pinterest">
+        <img src="1742336109753.png" alt="Ícone do Pinterest">
+      </a>
+    </div>
 
-<li><a  
-href="#contato">Contato</a></li>
-
-  </ul>
-</nav>
-</header>
-
-
-
-</body>
-
-
-
-
-  <img src="Beige Orange Cosy Autumn Sale Etsy Cover Photo.png" class="banner" alt="banner">
-
-  <img src="1000189907.png" class="logo" alt="logo">
-
-  <div class="redes-sociais">
-    <a href="https://www.instagram.com/nicolly.puerta" target="_blank" class="redes-sociais">
-      <img src="1742332907354 (2).png" alt="instagram">
-    </a>
-    <a href="https://pin.it/7H95bW5nm" targert="_blank" class="redes-sociais">
-      <img src="1742336109753.png" alt="pinterest">
-
-    </a>
-
-
-
-
-
-
-
-
-    <h1 style="color: cornflowerblue;" ">𝒈𝒖𝒊𝒂 𝒅𝒐 𝒂𝒍𝒖𝒏𝒐 ── .✦</h1>
-  <input type=" text" id="searchInput" placeholder="Digite sua pesquisa...">
+    <h1 class="page-title">Guia do Aluno ── .✦</h1>
+    <div class="search-bar-container">
+      <input type="text" id="searchInput" placeholder="Digite sua pesquisa...">
       <button onclick="search()">Pesquisar</button>
       <ul id="searchResults"></ul>
-  </div>
+    </div>
+
+    <h2 class="section-heading-main">Bem-vindo ao melhor site para estudantes<br>feito por estudantes.☘︎ ݁˖</h2>
+    <p class="intro-text">╰┈➤Aqui você encontra conteúdos de estudo para vestibular, enem, concurso, contas de estudos, sites, cursos gratuitos, dicas e muito mais! Explore e aprenda! ˎˊ˗</p>
+
+    <hr class="divider">
+
+    <section class="content-block">
+      <h3 class="section-heading">Recomendações de contas do YouTube para estudar ↓</h3>
+      <div class="content-row">
+        <img src="1742338919490.png" alt="Pessoas estudando e ícone do YouTube" class="content-image">
+        <div class="text-block">
+          Os vídeos do YouTube ajudam a estudar de diversas formas, como os vídeos que mostram experimentos e demonstrações práticas podem ajudar a visualizar conceitos em ações. Vídeos curtos e intuitivos podem ajudar a aprender conteúdos rápidos de forma prática, além de que o YouTube é perfeito para você dar aquela reforçada em horas de lazer. Pois, nele tem vídeos que não precisa necessariamente estar olhando para a tela, basta ouvi-los. 𓂃🖊
+        </div>
+      </div>
+      <a href="videos.html" class="action-button">♥︎ Página com canais do YouTube</a>
+    </section>
+
+    <hr class="divider">
+
+    <section class="content-block">
+      <h3 class="section-heading">Estudo para vestibular ↓</h3>
+      <div class="content-row reverse">
+        <img src="1742347124486.png" alt="Livros e materiais de estudo para vestibular" class="content-image">
+        <div class="text-block">
+          Se você está se preparando para o vestibular, a nossa página de dicas é o seu melhor aliado! Com uma variedade de estratégias e técnicas de estudo, ajudamos você a organizar sua rotina e otimizar seu aprendizado. Oferecemos sugestões sobre como elaborar um cronograma de estudos eficiente, técnicas de memorização e métodos para resolver questões de provas anteriores. Além disso, compartilhamos dicas sobre o que fazer nos dias que antecedem a prova e como manter a calma durante o exame. Nossa missão é proporcionar suporte e motivação aos estudantes, tornando a preparação para o vestibular mais tranquila e eficaz. Venha conferir nossas dicas e aumente suas chances de sucesso! 𓂃🖊
+        </div>
+      </div>
+      <a href="vestibular.html" class="action-button">♥︎ Página com conteúdos para vestibular</a>
+    </section>
+
+    <hr class="divider">
+
+    <section class="content-block">
+      <h3 class="section-heading">Cursos online ↓</h3>
+      <div class="content-row">
+        <img src="1742403110386.png" alt="Tela de computador mostrando um curso online" class="content-image">
+        <div class="text-block">
+          Os cursos online são uma excelente maneira de adquirir conhecimento, desenvolver novas habilidades e até avançar no mercado de trabalho com flexibilidade, variedade de formatos e custo-benefício. Aqui você encontra cursos online de diversas áreas, tanto gratuitos quanto pagos, para que você se adapte como puder. 𓂃🖊
+        </div>
+      </div>
+      <a href="cursos.html" class="action-button">♥ Página com cursos online</a>
+    </section>
+
+    <hr class="divider">
+
+    <section class="content-block">
+      <h3 class="section-heading">Dicas de organização ↓</h3>
+      <div class="content-row reverse">
+        <img src="1742403231688.png" alt="Mesa de estudo organizada com livros e materiais" class="content-image">
+        <div class="text-block">
+          Manter uma área de estudos e seu material organizados é essencial, e pode te ajudar de diversas formas, como na hora de revisar seu conteúdo para estudar para uma prova, além de ser um incentivo para manter o foco para muitos! Às vezes pode ser complicado e você pode acabar ficando perdido enquanto tenta se organizar com as suas coisas. Se você precisa de ajuda com isso, entre no link abaixo e descubra novas formas de como se organizar, tanto com horários, cadernos e local de estudo!𓂃🖊
+        </div>
+      </div>
+      <a href="organi.html" class="action-button">♥︎ Página com conteúdos para organização</a>
+    </section>
+
+    <hr class="divider">
+
+    <section class="content-block">
+      <h3 class="section-heading">Aplicativos para estudar ↓</h3>
+      <div class="content-row">
+        <img src="1742755636754.png" alt="Smartphone com aplicativos de estudo na tela" class="content-image">
+        <div class="text-block">
+          Descubra uma seleção de aplicativos incríveis que vão revolucionar sua forma de estudar! De ferramentas para flashcards e mapas mentais a organizadores de tarefas e focadores de produtividade, temos as melhores opções para te ajudar a otimizar seu tempo e aprender de forma mais eficiente. Encontre o app perfeito para suas necessidades e leve seus estudos para o próximo nível. 𓂃🖊
+        </div>
+      </div>
+      <a href="apps.html" class="action-button">♥︎ Página com apps para estudar</a>
+    </section>
+
+    <hr class="divider">
+
+    <section class="content-block">
+      <h3 class="section-heading">Recomendações de livros ↓</h3>
+      <div class="content-row reverse">
+        <img src="1742403231688.png" alt="Prateleira de livros" class="content-image">
+        <div class="text-block">
+          Uma página dedicada a recomendar livros que enriquecem seus conhecimentos em diversas áreas. Com resenhas breves e dicas de como integrar a leitura na rotina de estudos, esta página é um guia ideal para estudantes do ensino médio e universitário. Amplie seus horizontes com obras que fazem a diferença na sua formação!𓂃🖊
+        </div>
+      </div>
+      <a href="livros.html" class="action-button">♥︎ Página com livros</a>
+    </section>
+
+    <hr class="divider">
+
+    <div class="footer-message">
+      <h2 class="section-heading-main">Você chegou ao fim da página!.☘︎ ݁˖</h2>
+      <p class="outro-text">Esperamos que você tenha encontrado o que procurava. Se tiver alguma dúvida ou precisar de mais ajuda, não hesite em entrar em contato. Obrigado por visitar nossa página!</p>
+    </div>
+
+    <hr class="divider">
+
+    <section id="contato" class="contact-section">
+      <p>Visitou os nossos sites e percebeu que está faltando alguma coisa? Tem alguma dica ou reclamação? Entre em contato com a gente:</p>
+      <a href="reclam.html" class="action-button contact-button">♥ Reclame aqui</a>
+    </section>
+  </main>
 
   <script src="script.js"></script>
 
-
-  <h2 style="color: cornflowerblue;">𝐁𝐞𝐦 𝐯𝐢𝐧𝐝𝐨 𝐚𝐨 𝐦𝐞𝐥𝐡𝐨𝐫 𝐬𝐢𝐭𝐞 𝐩𝐚𝐫𝐚 𝐞𝐬𝐭𝐮𝐝𝐚𝐧𝐭𝐞𝐬
-    𝐟𝐞𝐢𝐭𝐨 𝐩𝐨𝐫 𝐞𝐬𝐭𝐮𝐝𝐚𝐧𝐭𝐞𝐬.☘︎ ݁˖</h2>
-
-
-
-  <p> ╰┈➤Aqui você encontra conteúdos de estudo para vestibular, enem, concurso, contas de estudos, sites, cursos
-    gratuitos, dicas e muito mais! Explore e aprenda! ˎˊ˗</p>
-  
-<h4 style="color:lightsteelblue;">
-    _________________________________________________________________________________________________________________________________
-  </h4>
-
-
-
-
-  
-  <h3 style="color: cadetblue;">Recomendações de contas do youtube para estudar ↓</h3>
-
-  <table>
-    <tr>
-      <td><img src="1742338919490.png" alt="contas do youtube" style="width:600px;
-            height:auto;"></td>
-      <td>
-        <div class="texto-com-margem"> Os videos do Youtube ajudam a estudar de diversas formas, como os videos que
-          mostram experimentos e demonstrações praticas podem ajudar a visualizar conceitos em ações, videos curtos e
-          intuitivos podem ajudar a aprender conteudos rapidos de forma pratica, além de que o YouTube é perfeito para
-          você dar aquela reforçada em horas de lazer. Pois, nele tem videos que não precisa necessariamente estar
-          olhando para a tela, basta ouvi-los. 𓂃🖊 </div>
-      </td>
-  </table>
-
-
-
-  <a href="videos.html" class="meu-link">♥︎ pagina com canais do youtube</a>
-
-  <h4 style="color:lightsteelblue;">
-    __________________________________________________________________________________________________________________________________
-  </h4>
-
-  <h3 style="color: cadetblue;">Estudo para vestibular ↓ </h3 
-    
-  <table>
-    <tr>
-      <td><img src="1742347124486.png" alt="contas do youtube" style="width:600px;
-            height:auto;"></td>
-      <td>
-        <div class="texto-com-margem2"> Se você está se preparando para o vestibular, a nossa página de dicas é o seu melhor aliado! Com uma variedade de estratégias e técnicas de estudo, ajudamos você a organizar sua rotina e otimizar seu aprendizado. Oferecemos sugestões sobre como elaborar um cronograma de estudos eficiente, técnicas de memorização e métodos para resolver questões de provas anteriores.
-
-Além disso, compartilhamos dicas sobre o que fazer nos dias que antecedem a prova e como manter a calma durante o exame. Nossa missão é proporcionar suporte e motivação aos estudantes, tornando a preparação para o vestibular mais tranquila e eficaz. Venha conferir nossas dicas e aumente suas chances de sucesso! 𓂃🖊</div>
-      </td>
-  </table>
-
-  <a href="vestibular.html" class="meu-link2"> ♥︎ pagina com conteudos para vestibular</a>
-
-  <h4 style="color:lightsteelblue;">
-    __________________________________________________________________________________________________________________________________
-  </h4>
-  <h3 style="color: cadetblue;">Cursos online ↓ </h3>
-
-<table>
-    <tr>
-      <td><img src="1742403110386.png" alt="cursos online" style="width:600px;
-            height:auto;"></td>
-      <td>
-        <div class="texto-com-margem3"> Os cursos online são uma exelente maneira de adquirir conhecimento, desenvolver novas abilidades e até avançar no mercado de trabalho com flexibilidade, variedade de formatos e custo-benefício. Aqui você encontra cursos online de diversas áreas, tanto gratuitos quanto pagos para que você se adapta como puder. 𓂃🖊
-        </div>
-      </td>
-  </table>
-  
-  <a href="cursos.html" class="meu-link3"> ♥ pagina com cursos online</a>
- <h4 style="color:lightsteelblue;">
-    _________________________________________________________________________________________________________________________________
-  </h4>
-  
-<h3 style="color: cadetblue;">dicas de organização ↓ </h3>
-  
-<table>
-
-  <tr>
-    <td><img src="1742403231688.png" alt="dicas de organização" style="width:600px;
-            height:auto;"</td>
-    <td>
-      <div class="texto-com-margem4">Manter uma área de estudos e seu material organizados é essencial, e pode te ajudar de diversas formas, como na hora de revisar seu conteúdo para estudar para uma prova, além de ser um incentivo para manter o foco para muitos! As vezes pode ser complicado e você pode acabar ficar perdido enquanto tenta se organizar com as suas coisas, se você precisa de ajuda com isso entre no link abaixo e descubra novas formas de como se organizar, tanto com horários, cadernos e local de estudo!𓂃🖊
- </div>
-          
-</table>
-
-  <a href="organi.html" class="meu-link4"> ♥︎ pagina com conteudos para organização</a>
-
- <h4 style="color:lightsteelblue;">
-    _________________________________________________________________________________________________________________________________
-  </h4>
-
-<h3 style="color: cadetblue;">Cursos online ↓ </h3>
-  
-<table>
-    <tr>
-      <td><img src="1742755636754.png" alt="cursos online" 
-            style="width:600px;
-            height:auto;"</td>
-      <td>
-        <div class="texto-com-margem5"> Os cursos online são uma exelente maneira de adquirir conhecimento, desenvolver novas abilidades e até avançar no mercado de trabalho com flexibilidade, variedade de formatos e custo-benefício. Aqui você encontra cursos online de diversas áreas, tanto gratuitos quanto pagos para que você se adapta como puder. 𓂃🖊</div>
-
-       </table> 
-
-   <a href="apps.html" class="meu-link5"> ♥︎ pagina com apps para estudar</a>
-  
-   <h4 style="color:lightsteelblue;">
-    _________________________________________________________________________________________________________________________________
-  </h4>
-
-  
-<h3 style="color: cadetblue;">recomendações de livros ↓ </h3>
-  
-<table>
-
-  <tr>
-    <td><img src="1742403231688.png" alt="dicas de organização" style="width:600px;
-            height:auto;"</td>
-    <td>
-      <div class="texto-com-margem4"> uma página dedicada a recomendar livros que enriquecem seus conhecimentos em diversas áreas. Com resenhas breves e dicas de como integrar a leitura na rotina de estudos, esta página é um guia ideal para estudantes do ensino médio e universitário. Amplie seus horizontes com obras que fazem a diferença na sua formação!𓂃🖊</div>
-
- </div>
-          
-</table>
-  <a href="livros.html" class="meu-link8"> ♥︎ pagina com livros</a>
-
- <h4 style="color:lightsteelblue;">
-    _________________________________________________________________________________________________________________________________
-  </h4>
-
-
-
-
-
-
-
-
-
-
-
-  <h2 style="color: cornflowerblue;">𝓿𝓸𝓬𝓮̂ 𝓬𝓱𝓮𝓰𝓸𝓾 𝓪𝓸 𝓯𝓲𝓶 𝓭𝓪 𝓹𝓪𝓰𝓲𝓷𝓪!.☘︎ ݁˖</h2>
-  <h5 style="color: rgb(64, 96, 155);">Esperamos que você tenha encontado oque procurava. Se tiver alguma dúvida ou precisar de mais ajuda não hesite em entrar em contato. Obrigado por visitar nossa página!  </h5>
-  <h4 style="color:lightsteelblue;">
-    _________________________________________________________________________________________________________________________________
-  </h4>
-
-
-<div id="Contato"
-class="section"
-
-  style="color: rgb(86, 108, 172);">Visitou os nossos sites e percebeu que esta faltando alguma coisa? Tem alguma dica ou reclamação? Entre em contato com a gente:
-
-  <a href="reclam.html" class="meu-link7"> ♥ reclame  aqui </a>
-
-  </div>
-</main>
-
- <h4 style="color:lightsteelblue;">
-    _________________________________________________________________________________________________________________________________
-  </h4>
-  
 </body>
-
 </html>
